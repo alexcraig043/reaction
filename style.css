@@ -1,6 +1,7 @@
 body {
     font-family: 'Oswald';
     text-align: center;
+    background-color: #e3e0e8ff;
 
 }
 
@@ -11,14 +12,14 @@ header {
 }
 
 h2 {
-    font-size: 3vh;
+    font-size: 5vh;
 }
 
-#generateButton {
+#button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4vh;
+    margin-top: 5vh;
     background-color: #e3e0e8ff;
     border-radius: 20px;
     border-width: 3px;

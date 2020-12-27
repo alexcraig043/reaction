@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="style.css">
     <title>Reaction Tester</title>
 </head>
-<body>
+<body onload="initiate()">
     <header>
         <h1 id="title">Reaction Time Tester</h1>
     </header>
     
-    <h2 id="positionName">Click the Button Below to Initiate!</h2>
+    <h2 id="text">Click the Button Below to Initiate!</h2>
 
     <div>
-        <button onclick='initiate()' id="generateButton">Initiate</button>
+        <button id="button">Initiate</button>
     </div>
 
-    <script src="start.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
